@@ -4,7 +4,6 @@ This is a simple website written in Golang. It uses the `net/http` package to se
 
 ## Install go https://go.dev/dl/
 
-## Extract the file on local server
 
 ## Running the server
 
