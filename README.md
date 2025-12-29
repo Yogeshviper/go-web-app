@@ -1,20 +1,21 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Go Web Application
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Install go https://go.dev/dl/
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Extract the file on local server
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Running the server
+
+To run the server, execute the following command:
+
+```bash
+go run main.go
+```
+
+The server will start on port 8080. You can access it by navigating to `http://localhost:8080/courses` in your web browser.
+
+## Looks like this
+
+![Website](static/images/golang-website.png)
